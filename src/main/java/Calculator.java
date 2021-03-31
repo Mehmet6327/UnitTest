@@ -1,11 +1,6 @@
-
-
-
-
-
 public class Calculator {
 
-   //Calculator uzerine gelip sag tikla
+    //Calculator uzerine gelip sag tikla
     //Generate goreceksin ona tikla
     //Sonra Test' e tikla
     //Sonra fix olacak ona tikliyorsun
