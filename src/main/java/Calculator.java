@@ -9,6 +9,8 @@ public class Calculator {
     //Test package icinde de otomatik sinif olusturuluyor.
 
 
+   public static String operator = "add";
+
     public static int add(int num1,int num2) {
 
         return num1+num2;
