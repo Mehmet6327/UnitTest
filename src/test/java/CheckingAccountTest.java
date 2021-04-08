@@ -43,6 +43,12 @@ class CheckingAccountTest {
 
 
     }
+    @Test
+    void withdraw_branch(){
+        assertThrows(IllegalArgumentException.class, () -> {
+            checkingAccount.withdraw_branch(600,false);
+        });
+    }
 
 
     @Test
